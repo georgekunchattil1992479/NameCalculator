@@ -1,1 +1,1 @@
-"# NameCalculator" 
+# NameCalculator
