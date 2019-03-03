@@ -13,9 +13,9 @@
     <script src="node_modules/angular/angular.min.js"></script>
     <script src="app.js"></script>
 </head>
-<body>
+<body ng-app="NameCalculator">
     <h1>Name Calculator</h1>
-    <div id="nameCalculator">
+    <div ng-controller="NameCalculatorController">
         <div>
             Your name: <input type="text" id="name">
         </div>
